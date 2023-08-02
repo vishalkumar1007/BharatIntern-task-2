@@ -49,7 +49,8 @@ const login = async (req, res) => {
       { email: user.email, id: user._id },
       process.env.ACCESS_TOKEN_SECRET
     );
-    res.json({ message: "Login successful", user: user, token: token });
+    // res.redirect('/profile');
+    res.json({ message: "Login successful", user: user, token: token , success : true });
   } catch (error) {
     console.error(error);
     res

@@ -96,7 +96,7 @@ document.getElementById("loginbtn").addEventListener("click",(x)=>{
       email : loginEmail,
       password : loginPassword
     };
-  
+    console.log(postData);
     // Options for the fetch request
     const options = {
       method: 'POST',
@@ -111,21 +111,20 @@ document.getElementById("loginbtn").addEventListener("click",(x)=>{
     .then((response) => response.json())
     .then((data) => {
       // Process the response data from the API
-  
       console.log(data);
-      if(data.message=='Invalid email' && data.success==false){
+      if(data.success==true){
+        window.location.href='/profile';
+      }
+      else if(data.message=='Invalid email' && data.success==false){
         alert("Invalid email");
       }
       else if(data.message=='Invalid password' && data.success==false){
         alert("Invalid password");
       }
-      else{
-        alert("User Logged In Successfully");
-        location.replace("../login_and_signup/login_and_signup.html");
-      }
     })
     .catch((error) => {
       // Handle errors
+      console.log("err");
       console.error('Error fetching data:', error);
       alert("User Login Failed");
     });
