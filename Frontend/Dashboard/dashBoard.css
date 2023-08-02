@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 98.7%;
+    height: 97.3vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+/* main left part */
+.main_left{
+    background-color: rgb(55, 14, 117);
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10%;
+    padding: 10px;
+}
+.company_logo{
+    background-color: rgb(89, 96, 76);
+    text-align: center;
+    margin: 10px;
+    
+}
+.dashboard{
+    background-color: rgb(205, 146, 50) ;
+    text-align: center;
+    margin: 10px;
+}
+.profile{
+    background-color: rgb(205, 50, 151);
+    text-align: center;
+    margin: 10px;
+}
+.chat{
+    background-color: rgb(50, 205, 66);
+    text-align: center;
+    margin: 10px;
+}
+.setting{
+    background-color: rgb(116, 105, 9);
+    text-align: center;
+    margin: 10px;
+}
+/* main right part */
+.main_right{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 10px;
+}
+/* . */
+.center_dashboard{
+    background-color: rgb(244, 163, 244);
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+/* .. */
+.your_thought{
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin: 10px;
+}
+/* ... */
+.profile_icon{
+    background-color: rgb(56, 162, 203);
+}
+.thought_text{
+    background-color: rgb(56, 162, 203);
+}
+/* .. */
+.thought_view{
+    background-color: rgb(220, 22, 22);
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 32% 250% 30%;
+}
+/* ... */
+.thought_scroll{
+    background-color: rgb(199, 20, 208);
+    display: grid;
+    grid-template-rows: 32% 250% 30%;
+}
+/* .... */
+.thought_owner{
+    background-color: rgb(95, 29, 158);
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    padding: 10px;
+}
+/* ..... */
+.owner_profile{
+    background-color: rgb(216, 229, 28);
+}
+.owner_name{
+    background-color: rgb(43, 117, 181);
+}
+.owner_username{
+    background-color: rgb(9, 141, 60);
+}
+/* ... */
+.thought_containt{
+    background-color: rgb(111, 114, 128);
+    margin: 5px;
+}
+.thought_footer{
+    background-color: rgb(28, 146, 119);
+}
+/* . */
+.left_dashboard{
+    background-color: rgb(165, 35, 12);
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    padding: 10px;
+}
+/* .. */
+.task{
+    background-color: rgb(78, 244, 89);
+    margin: 7px;
+}
+.feature{
+    background-color: rgb(255, 29, 127);
+    margin: 7px;
+}
+.company_about{
+    background-color: rgb(209, 245, 30);
+    margin: 7px;
+}

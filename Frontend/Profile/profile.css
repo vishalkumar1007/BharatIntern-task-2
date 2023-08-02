@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 98.7%;
+    height: 97.3vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+/* main left */
+.main_left{
+    background-color: rgb(55, 14, 117);
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10%;
+    padding: 10px;
+}
+.company_logo{
+    background-color: rgb(89, 96, 76);
+    text-align: center;
+    margin: 10px;
+    
+}
+.dashboard{
+    background-color: rgb(205, 146, 50) ;
+    text-align: center;
+    margin: 10px;
+}
+.profile{
+    background-color: rgb(205, 50, 151);
+    text-align: center;
+    margin: 10px;
+}
+.chat{
+    background-color: rgb(50, 205, 66);
+    text-align: center;
+    margin: 10px;
+}
+.setting{
+    background-color: rgb(116, 105, 9);
+    text-align: center;
+    margin: 10px;
+}
+/* main right */
+.main_right{
+    background-color: rgb(176, 31, 31);
+    display: grid;
+    grid-template-rows: 40% 60%;
+    padding: 10px;
+}
+/* .... */
+.about_profile{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: aqua;
+    padding: 10px;
+}
+.profile_pic{
+    background-color: blanchedalmond;
+    text-align: center;
+    vertical-align: middle;
+    line-height:250px;
+}
+.profile_data{
+    background-color: #5921a6;
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
+    padding: 5px;
+}
+.profile_handel{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    background-color: rgb(38, 209, 209);
+    margin: 5px;
+}
+.profile_stat{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background-color: rgb(219, 130, 28);
+    margin: 5px;
+}
+.bio{
+    background-color: rgb(93, 212, 29);
+    margin: 5px;
+}
+/* .... */
+.containt_profile{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    background-color: rgb(72, 255, 0);
+    padding: 10px;
+    
+}
+.cp1{
+    background-color: rgb(108, 34, 7);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.post{
+    background-color: #2196F3;
+    margin: 5px;
+}
+.task{
+    background-color: #f3214f;
+    margin: 5px;
+}
+.cp2{
+    background-color: violet;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.view1{
+    background-color: rgb(102, 18, 135);
+    margin: 5px;
+}
+.view2{
+    background-color: rgb(43, 24, 125);
+    margin: 5px;
+}
+.view3{
+    background-color: rgb(124, 141, 13);
+    margin: 5px;
+}
